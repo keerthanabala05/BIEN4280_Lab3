@@ -1,3 +1,17 @@
+/*
+ * Author: Keerthana Balakrishnan
+ * Date Created: October 6, 2026
+ * Assignment: BIEN 4280 - Lab 3
+ *
+ * Description:
+ * This program uses a Ticker interrupt and EventFlags to
+ * alternate between humidity and temperature measurements
+ * using the HS3000 sensor on the Arduino Nano 33 BLE Sense Rev2.
+ * Two threads handle the measurements and control separate LEDs.
+ * I2C communication is used to retrieve sensor data.
+ */
+
+
 #include "mbed.h"
 #include "USBSerial.h"
 
